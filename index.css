@@ -1,5 +1,96 @@
-html, body {
-    margin: 0;
-    padding: 0;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f0f0f0;
+  font-family: "Source Sans 3", sans-serif;
 }
 
+header {
+  border-bottom: 1px solid #c6c6c6;
+}
+
+header,
+main {
+  width: 375px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 8px 12px;
+}
+
+.head {
+  justify-content: space-between;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-block: 8px;
+}
+
+.header-logo {
+  width: 100px;
+}
+
+.header-avatar,
+.user-avatar {
+  width: 34px;
+  border-radius: 50%;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.user-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 12px;
+}
+
+.name-text {
+  font-weight: 700;
+}
+
+.post-image {
+  width: 375px;
+  padding-inline: 0;
+}
+
+.container .post-actions {
+  display: flex;
+  align-items: flex-start;
+  padding-inline: 12px;
+  gap: 12px;
+}
+
+.post-action {
+  width: 24px;
+}
+
+.post-likes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+p {
+  color: #000;
+  font-weight: 700;
+  font-size: 13px;
+  margin-top: 0;
+}
+
+.comment-text {
+  font-weight: 400;
+}

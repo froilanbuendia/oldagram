@@ -1,9 +1,44 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <img src="images/logo.png">
-        <script src="index.js"></script>
-    </body>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container head">
+        <img src="images/logo.png" class="header-logo" />
+        <img src="images/user-avatar.png" class="header-avatar" />
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="container post">
+          <div class="user-info">
+            <img class="user-avatar" id="user-avatar-vangogh" />
+            <div class="user-name">
+              <span class="name-text" id="name-vangogh"></span>
+              <span class="user-location" id="user-location-vangogh"></span>
+            </div>
+          </div>
+        </div>
+        <img class="post-image" id="post-image-vangogh" />
+        <div class="container post-actions">
+          <img class="post-action" src="images/icon-heart.png" />
+          <img class="post-action" src="images/icon-comment.png" />
+          <img class="post-action" src="images/icon-dm.png" />
+        </div>
+        <div class="container post-likes">
+          <p class="post-likes" id="post-likes-vangogh"></p>
+          <p class="post-comments" id="user-name-vangogh"></p>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="index.js"></script>
+  </body>
 </html>
