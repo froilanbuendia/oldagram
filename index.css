@@ -2,7 +2,6 @@ html,
 body {
   margin: 0;
   padding: 0;
-  text-align: center;
   background-color: #f0f0f0;
   font-family: "Source Sans 3", sans-serif;
 }
@@ -15,6 +14,9 @@ header,
 main {
   width: 375px;
   margin: 0 auto;
+}
+section {
+  margin-bottom: 16px;
 }
 
 .container {
@@ -59,6 +61,7 @@ main {
 }
 
 .name-text {
+  font-size: 13px;
   font-weight: 700;
 }
 
@@ -67,15 +70,18 @@ main {
   padding-inline: 0;
 }
 
-.container .post-actions {
+.post-actions {
   display: flex;
-  align-items: flex-start;
-  padding-inline: 12px;
   gap: 12px;
 }
 
 .post-action {
   width: 24px;
+}
+
+.post-action:hover,
+.post-action:focus {
+  opacity: 50%;
 }
 
 .post-likes {
